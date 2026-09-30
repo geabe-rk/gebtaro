@@ -1,0 +1,23 @@
+com.example.geb_taro
+color black
+color white
+drawable bg_taro
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+font retrofia
+id btnKirim
+id cardInfo
+id imageView
+id main
+id textView
+id titleText
+layout activity_main
+layout activity_penjelasan
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+string deskripsi
+style Base_Theme_Gebtaro
+style Theme_Gebtaro
+xml backup_rules
+xml data_extraction_rules
