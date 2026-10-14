@@ -1,42 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
+<LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/black"
-    tools:context=".activity_penjelasan">
+    android:orientation="vertical"
+    android:background="#050A0F">
 
-    <!-- Gambar Taro -->
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="300dp"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="40dp"
-        android:adjustViewBounds="true"
-        android:contentDescription="Gambar Produk Taro"
-        android:scaleType="fitCenter"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/bg_taro" />
+    <!-- Toolbar -->
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/toolbarBooking"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#050A0F"
+        app:navigationIcon="@drawable/ic_arrow_back"
+        app:navigationIconTint="#39FF88"
+        app:title="Book a Console"
+        app:titleTextColor="#FFFFFF" />
 
-    <!-- Card Informasi -->
-    <androidx.cardview.widget.CardView
-        android:id="@+id/cardInfo"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="24dp"
-        android:layout_marginTop="24dp"
-        android:layout_marginEnd="24dp"
-        app:cardBackgroundColor="#FFFFFF"
-        app:cardCornerRadius="16dp"
-        app:cardElevation="4dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/imageView">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -44,39 +29,146 @@
             android:orientation="vertical"
             android:padding="20dp">
 
-            <!-- Judul -->
+            <!-- Heading -->
             <TextView
-                android:id="@+id/titleText"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Tentang Taro"
-                android:textColor="#222222"
-                android:textSize="22sp"
+                android:text="Book a Console"
+                android:textColor="#FFFFFF"
+                android:textSize="24sp"
                 android:textStyle="bold" />
 
-            <!-- Garis kecil -->
-            <View
-                android:layout_width="50dp"
-                android:layout_height="3dp"
-                android:layout_marginTop="8dp"
-                android:layout_marginBottom="14dp"
-                android:background="#009B5A" />
-
-            <!-- Deskripsi -->
             <TextView
-                android:id="@+id/textView"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:lineSpacingExtra="4dp"
-                android:text="@string/deskripsi"
-                android:textColor="#555555"
-                android:textSize="15sp"
-                android:fontFamily="@font/retrofia"
-                />
+                android:layout_marginTop="5dp"
+                android:text="Choose your console and playing time"
+                android:textColor="#8F9AA5"
+                android:textSize="13sp" />
 
+            <!-- Date -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:text="SELECT DATE"
+                android:textColor="#39FF88"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btnDate"
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:layout_marginTop="8dp"
+                android:backgroundTint="#18241F"
+                android:text="Today"
+                android:textColor="#39FF88"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <!-- Console -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="SELECT CONSOLE"
+                android:textColor="#39FF88"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="85dp"
+                android:layout_marginTop="8dp"
+                app:cardBackgroundColor="#101923"
+                app:cardCornerRadius="15dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:padding="15dp">
+
+                    <TextView
+                        android:layout_width="55dp"
+                        android:layout_height="55dp"
+                        android:gravity="center"
+                        android:text="🎮"
+                        android:textSize="27sp" />
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="PlayStation 5"
+                            android:textColor="#FFFFFF"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="4dp"
+                            android:text="Rp 15.000 / hour"
+                            android:textColor="#8F9AA5"
+                            android:textSize="12sp" />
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="AVAILABLE"
+                        android:textColor="#39FF88"
+                        android:textSize="10sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <!-- Time -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="22dp"
+                android:text="SELECT TIME"
+                android:textColor="#39FF88"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btnTime"
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:layout_marginTop="8dp"
+                android:backgroundTint="#18241F"
+                android:text="19:00 - 20:00"
+                android:textColor="#39FF88"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <!-- Booking button -->
+            <Button
+                android:id="@+id/btnConfirmBooking"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginTop="28dp"
+                android:backgroundTint="#39FF88"
+                android:text="Book Now"
+                android:textColor="#050A0F"
+                android:textSize="15sp"
+                android:textStyle="bold" />
 
         </LinearLayout>
 
-    </androidx.cardview.widget.CardView>
+    </ScrollView>
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

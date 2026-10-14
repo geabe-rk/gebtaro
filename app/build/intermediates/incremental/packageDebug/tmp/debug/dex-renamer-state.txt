@@ -1,4 +1,4 @@
-#Wed Sep 23 16:22:26 GMT+07:00 2026
+#Wed Oct 14 02:41:03 GMT+07:00 2026
 base.0=C\:\\Users\\USER\\AndroidStudioProjects\\gebtaro\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
 base.1=C\:\\Users\\USER\\AndroidStudioProjects\\gebtaro\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
 base.2=C\:\\Users\\USER\\AndroidStudioProjects\\gebtaro\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\5\\classes.dex

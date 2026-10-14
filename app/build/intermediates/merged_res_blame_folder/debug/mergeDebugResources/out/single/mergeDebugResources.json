@@ -1,86 +1,118 @@
 [
     {
-        "merged": "C:\\Users\\USER\\.gradle\\daemon\\9.5.0\\com.example.geb_taro.app-debug-40:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\USER\\.gradle\\daemon\\9.5.0\\com.example.geb_taro.app-main-42:\\mipmap-xhdpi\\ic_launcher_round.webp"
-    },
-    {
-        "merged": "C:\\Users\\USER\\.gradle\\daemon\\9.5.0\\com.example.geb_taro.app-debug-40:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "C:\\Users\\USER\\.gradle\\daemon\\9.5.0\\com.example.geb_taro.app-main-42:\\mipmap-anydpi-v26\\ic_launcher.xml"
-    },
-    {
-        "merged": "C:\\Users\\USER\\.gradle\\daemon\\9.5.0\\com.example.geb_taro.app-debug-40:\\mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\USER\\.gradle\\daemon\\9.5.0\\com.example.geb_taro.app-main-42:\\mipmap-xhdpi\\ic_launcher.webp"
+        "merged": "com.example.geb_taro.app-debug-40:/layout_activity_profile.xml.flat",
+        "source": "com.example.geb_taro.app-main-42:/layout/activity_profile.xml"
     },
     {
         "merged": "com.example.geb_taro.app-debug-40:/layout_activity_penjelasan.xml.flat",
         "source": "com.example.geb_taro.app-main-42:/layout/activity_penjelasan.xml"
     },
     {
-        "merged": "C:\\Users\\USER\\.gradle\\daemon\\9.5.0\\com.example.geb_taro.app-debug-40:\\xml_data_extraction_rules.xml.flat",
-        "source": "C:\\Users\\USER\\.gradle\\daemon\\9.5.0\\com.example.geb_taro.app-main-42:\\xml\\data_extraction_rules.xml"
+        "merged": "com.example.geb_taro.app-debug-40:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.example.geb_taro.app-main-42:/drawable/ic_launcher_foreground.xml"
     },
     {
-        "merged": "C:\\Users\\USER\\.gradle\\daemon\\9.5.0\\com.example.geb_taro.app-debug-40:\\mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\USER\\.gradle\\daemon\\9.5.0\\com.example.geb_taro.app-main-42:\\mipmap-mdpi\\ic_launcher.webp"
+        "merged": "com.example.geb_taro.app-debug-40:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.geb_taro.app-main-42:/mipmap-mdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\USER\\.gradle\\daemon\\9.5.0\\com.example.geb_taro.app-debug-40:\\mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\USER\\.gradle\\daemon\\9.5.0\\com.example.geb_taro.app-main-42:\\mipmap-hdpi\\ic_launcher.webp"
+        "merged": "com.example.geb_taro.app-debug-40:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.geb_taro.app-main-42:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.geb_taro.app-debug-40:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.example.geb_taro.app-main-42:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.geb_taro.app-debug-40:/drawable_ic_arrow_back.xml.flat",
+        "source": "com.example.geb_taro.app-main-42:/drawable/ic_arrow_back.xml"
+    },
+    {
+        "merged": "com.example.geb_taro.app-debug-40:/drawable_izireps_logo.png.flat",
+        "source": "com.example.geb_taro.app-main-42:/drawable/izireps_logo.png"
+    },
+    {
+        "merged": "com.example.geb_taro.app-debug-40:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.geb_taro.app-main-42:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.geb_taro.app-debug-40:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.geb_taro.app-main-42:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.geb_taro.app-debug-40:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.example.geb_taro.app-main-42:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.geb_taro.app-debug-40:/layout_activity_developer.xml.flat",
+        "source": "com.example.geb_taro.app-main-42:/layout/activity_developer.xml"
+    },
+    {
+        "merged": "com.example.geb_taro.app-debug-40:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.example.geb_taro.app-main-42:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.example.geb_taro.app-debug-40:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.example.geb_taro.app-main-42:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.geb_taro.app-debug-40:/layout_activity_food.xml.flat",
+        "source": "com.example.geb_taro.app-main-42:/layout/activity_food.xml"
+    },
+    {
+        "merged": "com.example.geb_taro.app-debug-40:/layout_activity_web.xml.flat",
+        "source": "com.example.geb_taro.app-main-42:/layout/activity_web.xml"
+    },
+    {
+        "merged": "com.example.geb_taro.app-debug-40:/xml_backup_rules.xml.flat",
+        "source": "com.example.geb_taro.app-main-42:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.example.geb_taro.app-debug-40:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.example.geb_taro.app-main-42:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.geb_taro.app-debug-40:/layout_activity_splash_screen.xml.flat",
+        "source": "com.example.geb_taro.app-main-42:/layout/activity_splash_screen.xml"
     },
     {
         "merged": "com.example.geb_taro.app-debug-40:/drawable_bg_taro.png.flat",
         "source": "com.example.geb_taro.app-main-42:/drawable/bg_taro.png"
     },
     {
-        "merged": "C:\\Users\\USER\\.gradle\\daemon\\9.5.0\\com.example.geb_taro.app-debug-40:\\xml_backup_rules.xml.flat",
-        "source": "C:\\Users\\USER\\.gradle\\daemon\\9.5.0\\com.example.geb_taro.app-main-42:\\xml\\backup_rules.xml"
+        "merged": "com.example.geb_taro.app-debug-40:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.geb_taro.app-main-42:/mipmap-xxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\USER\\.gradle\\daemon\\9.5.0\\com.example.geb_taro.app-debug-40:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\USER\\.gradle\\daemon\\9.5.0\\com.example.geb_taro.app-main-42:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+        "merged": "com.example.geb_taro.app-debug-40:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.geb_taro.app-main-42:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.geb_taro.app-debug-40:/xml_data_extraction_rules.xml.flat",
+        "source": "com.example.geb_taro.app-main-42:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.example.geb_taro.app-debug-40:/layout_activity_login.xml.flat",
+        "source": "com.example.geb_taro.app-main-42:/layout/activity_login.xml"
     },
     {
         "merged": "com.example.geb_taro.app-debug-40:/layout_activity_main.xml.flat",
         "source": "com.example.geb_taro.app-main-42:/layout/activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\USER\\.gradle\\daemon\\9.5.0\\com.example.geb_taro.app-debug-40:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\USER\\.gradle\\daemon\\9.5.0\\com.example.geb_taro.app-main-42:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+        "merged": "com.example.geb_taro.app-debug-40:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.geb_taro.app-main-42:/mipmap-xxxhdpi/ic_launcher_round.webp"
     },
     {
         "merged": "com.example.geb_taro.app-debug-40:/font_retrofia.ttf.flat",
         "source": "com.example.geb_taro.app-main-42:/font/retrofia.ttf"
     },
     {
-        "merged": "C:\\Users\\USER\\.gradle\\daemon\\9.5.0\\com.example.geb_taro.app-debug-40:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\USER\\.gradle\\daemon\\9.5.0\\com.example.geb_taro.app-main-42:\\mipmap-xxxhdpi\\ic_launcher.webp"
+        "merged": "com.example.geb_taro.app-debug-40:/drawable_foto_gebi.png.flat",
+        "source": "com.example.geb_taro.app-main-42:/drawable/foto_gebi.png"
     },
     {
-        "merged": "C:\\Users\\USER\\.gradle\\daemon\\9.5.0\\com.example.geb_taro.app-debug-40:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "C:\\Users\\USER\\.gradle\\daemon\\9.5.0\\com.example.geb_taro.app-main-42:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
-    },
-    {
-        "merged": "C:\\Users\\USER\\.gradle\\daemon\\9.5.0\\com.example.geb_taro.app-debug-40:\\mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\USER\\.gradle\\daemon\\9.5.0\\com.example.geb_taro.app-main-42:\\mipmap-hdpi\\ic_launcher_round.webp"
-    },
-    {
-        "merged": "C:\\Users\\USER\\.gradle\\daemon\\9.5.0\\com.example.geb_taro.app-debug-40:\\layout_activity_main.xml.flat",
-        "source": "C:\\Users\\USER\\.gradle\\daemon\\9.5.0\\com.example.geb_taro.app-main-42:\\layout\\activity_main.xml"
-    },
-    {
-        "merged": "C:\\Users\\USER\\.gradle\\daemon\\9.5.0\\com.example.geb_taro.app-debug-40:\\drawable_ic_launcher_background.xml.flat",
-        "source": "C:\\Users\\USER\\.gradle\\daemon\\9.5.0\\com.example.geb_taro.app-main-42:\\drawable\\ic_launcher_background.xml"
-    },
-    {
-        "merged": "C:\\Users\\USER\\.gradle\\daemon\\9.5.0\\com.example.geb_taro.app-debug-40:\\drawable_ic_launcher_foreground.xml.flat",
-        "source": "C:\\Users\\USER\\.gradle\\daemon\\9.5.0\\com.example.geb_taro.app-main-42:\\drawable\\ic_launcher_foreground.xml"
-    },
-    {
-        "merged": "C:\\Users\\USER\\.gradle\\daemon\\9.5.0\\com.example.geb_taro.app-debug-40:\\mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\USER\\.gradle\\daemon\\9.5.0\\com.example.geb_taro.app-main-42:\\mipmap-xxhdpi\\ic_launcher.webp"
-    },
-    {
-        "merged": "C:\\Users\\USER\\.gradle\\daemon\\9.5.0\\com.example.geb_taro.app-debug-40:\\mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\USER\\.gradle\\daemon\\9.5.0\\com.example.geb_taro.app-main-42:\\mipmap-mdpi\\ic_launcher_round.webp"
+        "merged": "com.example.geb_taro.app-debug-40:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.example.geb_taro.app-main-42:/mipmap-anydpi-v26/ic_launcher_round.xml"
     }
 ]
