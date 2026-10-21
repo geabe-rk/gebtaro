@@ -1,15 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <style name="Theme.GebTaro" parent="Theme.Material3.DayNight.NoActionBar">
+    <style name="Base.Theme.Gebtaro"
+        parent="Theme.Material3.DayNight.NoActionBar">
 
         <item name="android:statusBarColor">#050A0F</item>
         <item name="android:navigationBarColor">#050A0F</item>
         <item name="android:windowLightStatusBar">false</item>
         <item name="android:windowDrawsSystemBarBackgrounds">true</item>
-
         <item name="android:windowOptOutEdgeToEdgeEnforcement">true</item>
 
     </style>
+
+    <style name="Theme.Gebtaro"
+        parent="Base.Theme.Gebtaro" />
 
 </resources>

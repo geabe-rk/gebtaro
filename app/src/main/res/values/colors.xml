@@ -2,4 +2,15 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <color name="izireps_bg">#070B10</color>
+    <color name="izireps_surface">#111923</color>
+    <color name="izireps_green">#39FF88</color>
+    <color name="izireps_muted">#929EAA</color>
+    <color name="izireps_text">#F5F7FA</color>
+    <color name="izireps_border">#26323D</color>
+
+    <color name="bottom_nav_selected">#39FF88</color>
+    <color name="bottom_nav_unselected">#929EAA</color>
+    <color name="bottom_nav_inactive">#929EAA</color>
 </resources>

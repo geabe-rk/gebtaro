@@ -42,24 +42,12 @@
             android:name="com.example.geb_taro.LoginActivity"
             android:exported="false" />
         <activity
+            android:name="com.example.geb_taro.BaseActivity"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
             android:name="com.example.geb_taro.DeveloperActivity"
             android:exported="false" />
-        <activity
-            android:name="com.example.geb_taro.MainActivity"
-            android:exported="false"
-            android:windowSoftInputMode="adjustResize" />
-        <activity
-            android:name="com.example.geb_taro.activity_penjelasan"
-            android:exported="false"
-            android:windowSoftInputMode="adjustResize" />
-        <activity
-            android:name="com.example.geb_taro.FoodActivity"
-            android:exported="false"
-            android:windowSoftInputMode="adjustResize" />
-        <activity
-            android:name="com.example.geb_taro.ProfileActivity"
-            android:exported="false"
-            android:windowSoftInputMode="adjustResize" />
         <activity
             android:name="com.example.geb_taro.WebActivity"
             android:exported="false"

@@ -1,17 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string-array name="console_options">
+        <item>PlayStation 4</item>
+        <item>PlayStation 5</item>
+    </string-array>
+    <string-array name="duration_options">
+        <item>1 Jam</item>
+        <item>2 Jam</item>
+        <item>3 Jam</item>
+        <item>4 Jam</item>
+    </string-array>
     <color name="black">#FF000000</color>
+    <color name="bottom_nav_inactive">#929EAA</color>
+    <color name="bottom_nav_selected">#39FF88</color>
+    <color name="bottom_nav_unselected">#929EAA</color>
+    <color name="izireps_bg">#070B10</color>
+    <color name="izireps_border">#26323D</color>
+    <color name="izireps_green">#39FF88</color>
+    <color name="izireps_muted">#929EAA</color>
+    <color name="izireps_surface">#111923</color>
+    <color name="izireps_text">#F5F7FA</color>
     <color name="white">#FFFFFFFF</color>
     <string name="app_name">geb-taro</string>
     <string name="deskripsi">Salah satu merk makanan ringan yang paling terkenal di Indonesia, Taro sangat dikenal dengan tema petualangan penuh imajinasi. Terbuat dari tepung gandum, jagung, dan kentang, serta bahan-bahan lain yang berkualitas. Melalui Taro, TPSF banyak melakukan kegiatan-kegiatan yang fokus untuk pembentukan karakter untuk anak-anak berusia 7 – 12 tahun. Taro boy digambarkan sebagai anak yang tangguh, cerdik, dan peduli.</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
     <style name="Base.Theme.Gebtaro" parent="Theme.Material3.DayNight.NoActionBar">
+
         <item name="android:statusBarColor">#050A0F</item>
         <item name="android:navigationBarColor">#050A0F</item>
-
         <item name="android:windowLightStatusBar">false</item>
         <item name="android:windowDrawsSystemBarBackgrounds">true</item>
-        
-        
+
     </style>
     <style name="Theme.Gebtaro" parent="Base.Theme.Gebtaro"/>
 </resources>

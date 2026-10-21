@@ -16,20 +16,20 @@
                 {
                     "source": "C:\\Users\\USER\\AndroidStudioProjects\\gebtaro\\app\\src\\main\\res\\values-v35\\themes.xml",
                     "from": {
-                        "startLines": "3",
-                        "startColumns": "4",
-                        "startOffsets": "59",
-                        "endLines": "12",
-                        "endColumns": "12",
-                        "endOffsets": "491"
+                        "startLines": "3,14",
+                        "startColumns": "4,4",
+                        "startOffsets": "59,511",
+                        "endLines": "12,15",
+                        "endColumns": "12,38",
+                        "endOffsets": "503,578"
                     },
                     "to": {
-                        "startLines": "6",
-                        "startColumns": "4",
-                        "startOffsets": "449",
-                        "endLines": "15",
-                        "endColumns": "12",
-                        "endOffsets": "872"
+                        "startLines": "6,15",
+                        "startColumns": "4,4",
+                        "startOffsets": "449,881",
+                        "endLines": "14,15",
+                        "endColumns": "12,61",
+                        "endOffsets": "876,938"
                     }
                 }
             ]

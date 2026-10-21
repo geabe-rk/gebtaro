@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/izireps_bg"
+    android:clipToPadding="false"
+    android:fillViewport="true"
+    android:overScrollMode="never">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingStart="20dp"
+        android:paddingTop="24dp"
+        android:paddingEnd="20dp"
+        android:paddingBottom="24dp">
+
+        <!-- Header -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/txtHomeBrand"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="IZIREPS"
+                    android:textColor="@color/izireps_green"
+                    android:textSize="13sp"
+                    android:textStyle="bold"
+                    android:letterSpacing="0.12" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="Gaming made easier."
+                    android:textColor="@color/izireps_muted"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="46dp"
+                android:layout_height="46dp"
+                android:background="@drawable/bg_icon_circle"
+                android:gravity="center"
+                android:text="GT"
+                android:textColor="@color/izireps_green"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <!-- Main title -->
+        <TextView
+            android:id="@+id/txtHomeTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="Play. Book.\nEnjoy."
+            android:textColor="@color/izireps_text"
+            android:textSize="34sp"
+            android:fontFamily="sans"
+            android:lineSpacingExtra="2dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtHomeSubtitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Your next gaming session starts here."
+            android:textColor="@color/izireps_muted"
+            android:textSize="14sp" />
+
+        <!-- Active session card -->
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="28dp"
+            app:cardBackgroundColor="@color/izireps_surface"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="0dp"
+            app:strokeColor="@color/izireps_border"
+            app:strokeWidth="1dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="20dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <View
+                        android:layout_width="8dp"
+                        android:layout_height="8dp"
+                        android:background="@drawable/bg_status_dot" />
+
+                    <TextView
+                        android:id="@+id/txtActiveLabel"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="9dp"
+                        android:text="ACTIVE SESSION"
+                        android:textColor="@color/izireps_green"
+                        android:textSize="11sp"
+                        android:textStyle="bold"
+                        android:letterSpacing="0.08" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/txtActiveSession"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:text="No active session"
+                    android:textColor="@color/izireps_text"
+                    android:textSize="21sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/txtActiveDesc"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="7dp"
+                    android:text="Book a console and get ready to play."
+                    android:textColor="@color/izireps_muted"
+                    android:textSize="13sp"
+                    android:lineSpacingExtra="3dp" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="18dp"
+                    android:background="@color/izireps_border" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="14dp"
+                    android:text="Your gaming time starts with one booking."
+                    android:textColor="@color/izireps_text"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <!-- Quick actions heading -->
+        <TextView
+            android:id="@+id/txtQuickActions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="Quick Actions"
+            android:textColor="@color/izireps_text"
+            android:textSize="19sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Everything you need for your session."
+            android:textColor="@color/izireps_muted"
+            android:textSize="12sp" />
+
+        <!-- Booking button -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnHomeBooking"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:layout_marginTop="18dp"
+            android:backgroundTint="@color/izireps_green"
+            android:text="Book a Console  →"
+            android:textAllCaps="false"
+            android:textColor="@color/izireps_bg"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            app:cornerRadius="15dp"
+            app:elevation="0dp" />
+
+        <!-- Food button -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnHomeFood"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:layout_marginTop="12dp"
+            android:backgroundTint="@color/izireps_surface"
+            android:text="Food &amp; Beverage"
+            android:textAllCaps="false"
+            android:textColor="@color/izireps_text"
+            android:textSize="14sp"
+            app:cornerRadius="15dp"
+            app:strokeColor="@color/izireps_border"
+            app:strokeWidth="1dp" />
+
+        <!-- Website button -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnHomeWeb"
+            style="@style/Widget.Material3.Button.OutlinedButton"
+            android:layout_width="match_parent"
+            android:layout_height="54dp"
+            android:layout_marginTop="12dp"
+            android:text="Open PlayStation Website"
+            android:textAllCaps="false"
+            android:textColor="@color/izireps_green"
+            android:textSize="13sp"
+            app:cornerRadius="15dp"
+            app:strokeColor="@color/izireps_green"
+            app:strokeWidth="1dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="26dp"
+            android:gravity="center"
+            android:text="IZIREPS  •  PLAY YOUR WAY"
+            android:textColor="@color/izireps_muted"
+            android:textSize="10sp"
+            android:letterSpacing="0.08" />
+
+    </LinearLayout>
+
+</ScrollView>

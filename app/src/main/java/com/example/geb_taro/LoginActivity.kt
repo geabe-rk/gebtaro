@@ -1,4 +1,3 @@
-
 package com.example.geb_taro
 
 import android.content.Intent
@@ -16,10 +15,21 @@ class LoginActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_login)
 
-        val edtUsername = findViewById<EditText>(R.id.edtUsername)
-        val edtPassword = findViewById<EditText>(R.id.edtPassword)
-        val btnLogin = findViewById<Button>(R.id.btnLogin)
-        val tvDeveloper = findViewById<TextView>(R.id.tvDeveloper)
+        val edtUsername = findViewById<EditText>(
+            R.id.edtUsername
+        )
+
+        val edtPassword = findViewById<EditText>(
+            R.id.edtPassword
+        )
+
+        val btnLogin = findViewById<Button>(
+            R.id.btnLogin
+        )
+
+        val tvDeveloper = findViewById<TextView>(
+            R.id.tvDeveloper
+        )
 
         btnLogin.setOnClickListener {
             val username = edtUsername.text.toString().trim()
@@ -30,8 +40,10 @@ class LoginActivity : AppCompatActivity() {
                 password.isNotEmpty() &&
                 username == password
             ) {
-                getSharedPreferences("user_pref", MODE_PRIVATE)
-                    .edit()
+                getSharedPreferences(
+                    "user_pref",
+                    MODE_PRIVATE
+                ).edit()
                     .putBoolean("isLogin", true)
                     .apply()
 
@@ -41,17 +53,21 @@ class LoginActivity : AppCompatActivity() {
                     Toast.LENGTH_SHORT
                 ).show()
 
-                val intent = Intent(this, MainActivity::class.java)
+                val intent = Intent(
+                    this,
+                    BaseActivity::class.java
+                ).apply {
+                    flags =
+                        Intent.FLAG_ACTIVITY_NEW_TASK or
+                                Intent.FLAG_ACTIVITY_CLEAR_TASK
+                }
+
                 startActivity(intent)
                 finish()
-
             } else {
                 AlertDialog.Builder(this)
                     .setTitle("Login Gagal")
-                    .setMessage(
-                        "Username dan password harus terisi " +
-                                "dan memiliki nilai yang sama. Silakan coba lagi."
-                    )
+                    .setMessage("Silakan coba lagi. Username dan password harus terisi dan memiliki nilai yang sama.")
                     .setPositiveButton("OK", null)
                     .show()
             }

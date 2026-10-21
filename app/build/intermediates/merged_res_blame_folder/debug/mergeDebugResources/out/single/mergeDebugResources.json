@@ -24,8 +24,16 @@
         "source": "com.example.geb_taro.app-main-42:/mipmap-hdpi/ic_launcher.webp"
     },
     {
+        "merged": "com.example.geb_taro.app-debug-40:/layout_activity_base.xml.flat",
+        "source": "com.example.geb_taro.app-main-42:/layout/activity_base.xml"
+    },
+    {
         "merged": "com.example.geb_taro.app-debug-40:/drawable_ic_arrow_back.xml.flat",
         "source": "com.example.geb_taro.app-main-42:/drawable/ic_arrow_back.xml"
+    },
+    {
+        "merged": "com.example.geb_taro.app-debug-40:/menu_bottom_nav_menu.xml.flat",
+        "source": "com.example.geb_taro.app-main-42:/menu/bottom_nav_menu.xml"
     },
     {
         "merged": "com.example.geb_taro.app-debug-40:/drawable_izireps_logo.png.flat",
@@ -40,8 +48,16 @@
         "source": "com.example.geb_taro.app-main-42:/mipmap-xxhdpi/ic_launcher_round.webp"
     },
     {
+        "merged": "com.example.geb_taro.app-debug-40:/layout_fragment_booking.xml.flat",
+        "source": "com.example.geb_taro.app-main-42:/layout/fragment_booking.xml"
+    },
+    {
         "merged": "com.example.geb_taro.app-debug-40:/mipmap-xhdpi_ic_launcher.webp.flat",
         "source": "com.example.geb_taro.app-main-42:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.geb_taro.app-debug-40:/layout_fragment_home.xml.flat",
+        "source": "com.example.geb_taro.app-main-42:/layout/fragment_home.xml"
     },
     {
         "merged": "com.example.geb_taro.app-debug-40:/layout_activity_developer.xml.flat",
@@ -50,6 +66,14 @@
     {
         "merged": "com.example.geb_taro.app-debug-40:/drawable_ic_launcher_background.xml.flat",
         "source": "com.example.geb_taro.app-main-42:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.example.geb_taro.app-debug-40:/layout_fragment_profile.xml.flat",
+        "source": "com.example.geb_taro.app-main-42:/layout/fragment_profile.xml"
+    },
+    {
+        "merged": "com.example.geb_taro.app-debug-40:/drawable_bg_status_dot.xml.flat",
+        "source": "com.example.geb_taro.app-main-42:/drawable/bg_status_dot.xml"
     },
     {
         "merged": "com.example.geb_taro.app-debug-40:/mipmap-anydpi-v26_ic_launcher.xml.flat",
@@ -68,6 +92,14 @@
         "source": "com.example.geb_taro.app-main-42:/xml/backup_rules.xml"
     },
     {
+        "merged": "com.example.geb_taro.app-debug-40:/drawable_ic_nav_profile.xml.flat",
+        "source": "com.example.geb_taro.app-main-42:/drawable/ic_nav_profile.xml"
+    },
+    {
+        "merged": "com.example.geb_taro.app-debug-40:/layout_fragment_food.xml.flat",
+        "source": "com.example.geb_taro.app-main-42:/layout/fragment_food.xml"
+    },
+    {
         "merged": "com.example.geb_taro.app-debug-40:/mipmap-mdpi_ic_launcher.webp.flat",
         "source": "com.example.geb_taro.app-main-42:/mipmap-mdpi/ic_launcher.webp"
     },
@@ -82,6 +114,10 @@
     {
         "merged": "com.example.geb_taro.app-debug-40:/mipmap-xxhdpi_ic_launcher.webp.flat",
         "source": "com.example.geb_taro.app-main-42:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.geb_taro.app-debug-40:/drawable_bg_icon_circle.xml.flat",
+        "source": "com.example.geb_taro.app-main-42:/drawable/bg_icon_circle.xml"
     },
     {
         "merged": "com.example.geb_taro.app-debug-40:/mipmap-xxxhdpi_ic_launcher.webp.flat",
@@ -100,6 +136,10 @@
         "source": "com.example.geb_taro.app-main-42:/layout/activity_main.xml"
     },
     {
+        "merged": "com.example.geb_taro.app-debug-40:/drawable_ic_nav_home.xml.flat",
+        "source": "com.example.geb_taro.app-main-42:/drawable/ic_nav_home.xml"
+    },
+    {
         "merged": "com.example.geb_taro.app-debug-40:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
         "source": "com.example.geb_taro.app-main-42:/mipmap-xxxhdpi/ic_launcher_round.webp"
     },
@@ -110,6 +150,26 @@
     {
         "merged": "com.example.geb_taro.app-debug-40:/drawable_foto_gebi.png.flat",
         "source": "com.example.geb_taro.app-main-42:/drawable/foto_gebi.png"
+    },
+    {
+        "merged": "com.example.geb_taro.app-debug-40:/drawable_ic_nav_food.xml.flat",
+        "source": "com.example.geb_taro.app-main-42:/drawable/ic_nav_food.xml"
+    },
+    {
+        "merged": "com.example.geb_taro.app-debug-40:/layout_fragment_history.xml.flat",
+        "source": "com.example.geb_taro.app-main-42:/layout/fragment_history.xml"
+    },
+    {
+        "merged": "com.example.geb_taro.app-debug-40:/drawable_ic_nav_booking.xml.flat",
+        "source": "com.example.geb_taro.app-main-42:/drawable/ic_nav_booking.xml"
+    },
+    {
+        "merged": "com.example.geb_taro.app-debug-40:/drawable_ic_nav_history.xml.flat",
+        "source": "com.example.geb_taro.app-main-42:/drawable/ic_nav_history.xml"
+    },
+    {
+        "merged": "com.example.geb_taro.app-debug-40:/color_bottom_nav_tint.xml.flat",
+        "source": "com.example.geb_taro.app-main-42:/color/bottom_nav_tint.xml"
     },
     {
         "merged": "com.example.geb_taro.app-debug-40:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",

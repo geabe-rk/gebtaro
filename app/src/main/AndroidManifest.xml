@@ -29,28 +29,13 @@
             android:exported="false" />
 
         <activity
+            android:name=".BaseActivity"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize" />
+
+        <activity
             android:name=".DeveloperActivity"
             android:exported="false" />
-
-        <activity
-            android:name=".MainActivity"
-            android:exported="false"
-            android:windowSoftInputMode="adjustResize" />
-
-        <activity
-            android:name=".activity_penjelasan"
-            android:exported="false"
-            android:windowSoftInputMode="adjustResize" />
-
-        <activity
-            android:name=".FoodActivity"
-            android:exported="false"
-            android:windowSoftInputMode="adjustResize" />
-
-        <activity
-            android:name=".ProfileActivity"
-            android:exported="false"
-            android:windowSoftInputMode="adjustResize" />
 
         <activity
             android:name=".WebActivity"
@@ -58,5 +43,4 @@
             android:windowSoftInputMode="adjustResize" />
 
     </application>
-
 </manifest>
