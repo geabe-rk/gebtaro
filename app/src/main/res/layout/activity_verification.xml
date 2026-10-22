@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#050A0F"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="IZIREPS"
+            android:textColor="#39FF88"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:text="Verifikasi Registrasi"
+            android:textColor="#FFFFFF"
+            android:textSize="23sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="18dp"
+            android:text="Periksa data di bawah ini, lalu tekan Submit untuk melakukan validasi."
+            android:textColor="#AAB5C0"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tvDataRegistrasi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#15202A"
+            android:padding="16dp"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:lineSpacingExtra="6dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Validasi akun"
+            android:textColor="#39FF88"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/edtVerifikasiUsername"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="#39FF88"
+            android:hint="Konfirmasi username"
+            android:inputType="text"
+            android:padding="12dp"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#8F9AA5" />
+
+        <EditText
+            android:id="@+id/edtVerifikasiPassword"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="#39FF88"
+            android:hint="Konfirmasi password"
+            android:inputType="textPassword"
+            android:padding="12dp"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#8F9AA5" />
+
+        <EditText
+            android:id="@+id/edtVerifikasiConfirmPassword"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"
+            android:backgroundTint="#39FF88"
+            android:hint="Konfirmasi ulang password"
+            android:inputType="textPassword"
+            android:padding="12dp"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#8F9AA5" />
+
+        <Button
+            android:id="@+id/btnSubmitVerifikasi"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:backgroundTint="#39FF88"
+            android:text="SUBMIT"
+            android:textColor="#050A0F"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnKembaliRegistrasi"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="#263441"
+            android:text="KEMBALI KE REGISTRASI"
+            android:textColor="#FFFFFF" />
+
+    </LinearLayout>
+</ScrollView>

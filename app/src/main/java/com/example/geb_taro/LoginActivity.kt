@@ -15,35 +15,69 @@ class LoginActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_login)
 
-        val edtUsername = findViewById<EditText>(
-            R.id.edtUsername
-        )
+        val edtUsername =
+            findViewById<EditText>(R.id.edtUsername)
 
-        val edtPassword = findViewById<EditText>(
-            R.id.edtPassword
-        )
+        val edtPassword =
+            findViewById<EditText>(R.id.edtPassword)
 
-        val btnLogin = findViewById<Button>(
-            R.id.btnLogin
-        )
+        val btnLogin =
+            findViewById<Button>(R.id.btnLogin)
 
-        val tvDeveloper = findViewById<TextView>(
-            R.id.tvDeveloper
+        val tvDeveloper =
+            findViewById<TextView>(R.id.tvDeveloper)
+
+        val tvRegister =
+            findViewById<TextView>(R.id.tvRegister)
+
+        val preferences = getSharedPreferences(
+            "user_pref",
+            MODE_PRIVATE
         )
 
         btnLogin.setOnClickListener {
             val username = edtUsername.text.toString().trim()
             val password = edtPassword.text.toString()
 
-            if (
-                username.isNotEmpty() &&
-                password.isNotEmpty() &&
+            // 1. Periksa input kosong
+            if (username.isBlank() || password.isBlank()) {
+                Toast.makeText(
+                    this,
+                    "Username dan password wajib diisi",
+                    Toast.LENGTH_SHORT
+                ).show()
+                return@setOnClickListener
+            }
+
+            // 2. Ambil akun yang tersimpan saat registrasi
+            val usernameTersimpan =
+                preferences.getString("username", "").orEmpty()
+
+            val passwordTersimpan =
+                preferences.getString("password", "").orEmpty()
+
+            val registrasiVerified =
+                preferences.getBoolean(
+                    "registrationVerified",
+                    false
+                )
+
+            // 3. Aturan login praktikum sebelumnya
+            val loginPraktikum =
                 username == password
-            ) {
-                getSharedPreferences(
-                    "user_pref",
-                    MODE_PRIVATE
-                ).edit()
+
+            // 4. Aturan login menggunakan akun terdaftar
+            val loginRegistrasi =
+                usernameTersimpan.isNotBlank() &&
+                        passwordTersimpan.isNotBlank() &&
+                        username == usernameTersimpan &&
+                        password == passwordTersimpan &&
+                        registrasiVerified
+
+            // 5. Login berhasil jika salah satu aturan terpenuhi
+            if (loginPraktikum || loginRegistrasi) {
+
+                preferences.edit()
                     .putBoolean("isLogin", true)
                     .apply()
 
@@ -56,23 +90,31 @@ class LoginActivity : AppCompatActivity() {
                 val intent = Intent(
                     this,
                     BaseActivity::class.java
-                ).apply {
-                    flags =
-                        Intent.FLAG_ACTIVITY_NEW_TASK or
-                                Intent.FLAG_ACTIVITY_CLEAR_TASK
-                }
+                )
 
                 startActivity(intent)
                 finish()
+
             } else {
                 AlertDialog.Builder(this)
                     .setTitle("Login Gagal")
-                    .setMessage("Silakan coba lagi. Username dan password harus terisi dan memiliki nilai yang sama.")
+                    .setMessage(
+                        "Username atau password tidak sesuai, " +
+                                "atau akun belum melewati verifikasi."
+                    )
                     .setPositiveButton("OK", null)
                     .show()
             }
         }
 
+        // Buka halaman registrasi
+        tvRegister.setOnClickListener {
+            startActivity(
+                Intent(this, RegisterActivity::class.java)
+            )
+        }
+
+        // Buka halaman developer
         tvDeveloper.setOnClickListener {
             startActivity(
                 Intent(this, DeveloperActivity::class.java)

@@ -24,6 +24,10 @@
         "source": "com.example.geb_taro.app-main-42:/mipmap-hdpi/ic_launcher.webp"
     },
     {
+        "merged": "com.example.geb_taro.app-debug-40:/layout_activity_verification.xml.flat",
+        "source": "com.example.geb_taro.app-main-42:/layout/activity_verification.xml"
+    },
+    {
         "merged": "com.example.geb_taro.app-debug-40:/layout_activity_base.xml.flat",
         "source": "com.example.geb_taro.app-main-42:/layout/activity_base.xml"
     },
@@ -46,6 +50,10 @@
     {
         "merged": "com.example.geb_taro.app-debug-40:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
         "source": "com.example.geb_taro.app-main-42:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.geb_taro.app-debug-40:/layout_activity_registration_success.xml.flat",
+        "source": "com.example.geb_taro.app-main-42:/layout/activity_registration_success.xml"
     },
     {
         "merged": "com.example.geb_taro.app-debug-40:/layout_fragment_booking.xml.flat",
@@ -162,6 +170,10 @@
     {
         "merged": "com.example.geb_taro.app-debug-40:/drawable_ic_nav_booking.xml.flat",
         "source": "com.example.geb_taro.app-main-42:/drawable/ic_nav_booking.xml"
+    },
+    {
+        "merged": "com.example.geb_taro.app-debug-40:/layout_activity_register.xml.flat",
+        "source": "com.example.geb_taro.app-main-42:/layout/activity_register.xml"
     },
     {
         "merged": "com.example.geb_taro.app-debug-40:/drawable_ic_nav_history.xml.flat",
