@@ -12,179 +12,209 @@
 9-->INJECTED
 10
 11    <uses-permission android:name="android.permission.INTERNET" />
-11-->D:\MHS\gebtaro\app\src\main\AndroidManifest.xml:4:5-67
-11-->D:\MHS\gebtaro\app\src\main\AndroidManifest.xml:4:22-64
-12
-13    <permission
-13-->[androidx.core:core:1.19.0] C:\Users\PCR\.gradle\caches\9.5.0\transforms\f834c9db7909127f38a16f901e21b3c2\transformed\core-1.19.0\AndroidManifest.xml:22:5-24:47
-14        android:name="com.example.geb_taro.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-14-->[androidx.core:core:1.19.0] C:\Users\PCR\.gradle\caches\9.5.0\transforms\f834c9db7909127f38a16f901e21b3c2\transformed\core-1.19.0\AndroidManifest.xml:23:9-81
-15        android:protectionLevel="signature" />
-15-->[androidx.core:core:1.19.0] C:\Users\PCR\.gradle\caches\9.5.0\transforms\f834c9db7909127f38a16f901e21b3c2\transformed\core-1.19.0\AndroidManifest.xml:24:9-44
-16
-17    <uses-permission android:name="com.example.geb_taro.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
-17-->[androidx.core:core:1.19.0] C:\Users\PCR\.gradle\caches\9.5.0\transforms\f834c9db7909127f38a16f901e21b3c2\transformed\core-1.19.0\AndroidManifest.xml:26:5-97
-17-->[androidx.core:core:1.19.0] C:\Users\PCR\.gradle\caches\9.5.0\transforms\f834c9db7909127f38a16f901e21b3c2\transformed\core-1.19.0\AndroidManifest.xml:26:22-94
+11-->D:\gebtaro\app\src\main\AndroidManifest.xml:4:5-67
+11-->D:\gebtaro\app\src\main\AndroidManifest.xml:4:22-64
+12    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+12-->D:\gebtaro\app\src\main\AndroidManifest.xml:6:5-77
+12-->D:\gebtaro\app\src\main\AndroidManifest.xml:6:22-74
+13    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+13-->D:\gebtaro\app\src\main\AndroidManifest.xml:8:5-81
+13-->D:\gebtaro\app\src\main\AndroidManifest.xml:8:22-78
+14
+15    <permission
+15-->[androidx.core:core:1.19.0] C:\Users\USER\.gradle\caches\9.5.0\transforms\f834c9db7909127f38a16f901e21b3c2\transformed\core-1.19.0\AndroidManifest.xml:22:5-24:47
+16        android:name="com.example.geb_taro.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+16-->[androidx.core:core:1.19.0] C:\Users\USER\.gradle\caches\9.5.0\transforms\f834c9db7909127f38a16f901e21b3c2\transformed\core-1.19.0\AndroidManifest.xml:23:9-81
+17        android:protectionLevel="signature" />
+17-->[androidx.core:core:1.19.0] C:\Users\USER\.gradle\caches\9.5.0\transforms\f834c9db7909127f38a16f901e21b3c2\transformed\core-1.19.0\AndroidManifest.xml:24:9-44
 18
-19    <application
-19-->D:\MHS\gebtaro\app\src\main\AndroidManifest.xml:6:5-50:19
-20        android:allowBackup="true"
-20-->D:\MHS\gebtaro\app\src\main\AndroidManifest.xml:7:9-35
-21        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-21-->[androidx.core:core:1.19.0] C:\Users\PCR\.gradle\caches\9.5.0\transforms\f834c9db7909127f38a16f901e21b3c2\transformed\core-1.19.0\AndroidManifest.xml:28:18-86
-22        android:dataExtractionRules="@xml/data_extraction_rules"
-22-->D:\MHS\gebtaro\app\src\main\AndroidManifest.xml:8:9-65
-23        android:debuggable="true"
-24        android:extractNativeLibs="false"
-24-->INJECTED
-25        android:fullBackupContent="@xml/backup_rules"
-25-->D:\MHS\gebtaro\app\src\main\AndroidManifest.xml:9:9-54
-26        android:icon="@mipmap/ic_launcher"
-26-->D:\MHS\gebtaro\app\src\main\AndroidManifest.xml:10:9-43
-27        android:label="@string/app_name"
-27-->D:\MHS\gebtaro\app\src\main\AndroidManifest.xml:11:9-41
-28        android:roundIcon="@mipmap/ic_launcher_round"
-28-->D:\MHS\gebtaro\app\src\main\AndroidManifest.xml:12:9-54
-29        android:supportsRtl="true"
-29-->D:\MHS\gebtaro\app\src\main\AndroidManifest.xml:13:9-35
-30        android:testOnly="true"
-31        android:theme="@style/Theme.Gebtaro" >
-31-->D:\MHS\gebtaro\app\src\main\AndroidManifest.xml:14:9-45
-32        <activity
-32-->D:\MHS\gebtaro\app\src\main\AndroidManifest.xml:15:9-23:20
-33            android:name="com.example.geb_taro.SplashScreenActivity"
-33-->D:\MHS\gebtaro\app\src\main\AndroidManifest.xml:16:13-49
-34            android:exported="true" >
-34-->D:\MHS\gebtaro\app\src\main\AndroidManifest.xml:17:13-36
-35            <intent-filter>
-35-->D:\MHS\gebtaro\app\src\main\AndroidManifest.xml:18:13-22:29
-36                <action android:name="android.intent.action.MAIN" />
-36-->D:\MHS\gebtaro\app\src\main\AndroidManifest.xml:19:17-69
-36-->D:\MHS\gebtaro\app\src\main\AndroidManifest.xml:19:25-66
-37
-38                <category android:name="android.intent.category.LAUNCHER" />
-38-->D:\MHS\gebtaro\app\src\main\AndroidManifest.xml:21:17-77
-38-->D:\MHS\gebtaro\app\src\main\AndroidManifest.xml:21:27-74
-39            </intent-filter>
-40        </activity>
-41        <activity
-41-->D:\MHS\gebtaro\app\src\main\AndroidManifest.xml:24:9-26:40
-42            android:name="com.example.geb_taro.LoginActivity"
-42-->D:\MHS\gebtaro\app\src\main\AndroidManifest.xml:25:13-42
-43            android:exported="false" />
-43-->D:\MHS\gebtaro\app\src\main\AndroidManifest.xml:26:13-37
-44        <activity
-44-->D:\MHS\gebtaro\app\src\main\AndroidManifest.xml:27:9-30:58
-45            android:name="com.example.geb_taro.BaseActivity"
-45-->D:\MHS\gebtaro\app\src\main\AndroidManifest.xml:28:13-41
-46            android:exported="false"
-46-->D:\MHS\gebtaro\app\src\main\AndroidManifest.xml:29:13-37
-47            android:windowSoftInputMode="adjustResize" />
-47-->D:\MHS\gebtaro\app\src\main\AndroidManifest.xml:30:13-55
-48        <activity
-48-->D:\MHS\gebtaro\app\src\main\AndroidManifest.xml:31:9-33:40
-49            android:name="com.example.geb_taro.DeveloperActivity"
-49-->D:\MHS\gebtaro\app\src\main\AndroidManifest.xml:32:13-46
-50            android:exported="false" />
-50-->D:\MHS\gebtaro\app\src\main\AndroidManifest.xml:33:13-37
-51        <activity
-51-->D:\MHS\gebtaro\app\src\main\AndroidManifest.xml:34:9-37:58
-52            android:name="com.example.geb_taro.WebActivity"
-52-->D:\MHS\gebtaro\app\src\main\AndroidManifest.xml:35:13-40
-53            android:exported="false"
-53-->D:\MHS\gebtaro\app\src\main\AndroidManifest.xml:36:13-37
-54            android:windowSoftInputMode="adjustResize" />
-54-->D:\MHS\gebtaro\app\src\main\AndroidManifest.xml:37:13-55
-55        <activity
-55-->D:\MHS\gebtaro\app\src\main\AndroidManifest.xml:38:9-41:58
-56            android:name="com.example.geb_taro.RegisterActivity"
-56-->D:\MHS\gebtaro\app\src\main\AndroidManifest.xml:39:13-45
-57            android:exported="false"
-57-->D:\MHS\gebtaro\app\src\main\AndroidManifest.xml:40:13-37
-58            android:windowSoftInputMode="adjustResize" />
-58-->D:\MHS\gebtaro\app\src\main\AndroidManifest.xml:41:13-55
+19    <uses-permission android:name="com.example.geb_taro.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+19-->[androidx.core:core:1.19.0] C:\Users\USER\.gradle\caches\9.5.0\transforms\f834c9db7909127f38a16f901e21b3c2\transformed\core-1.19.0\AndroidManifest.xml:26:5-97
+19-->[androidx.core:core:1.19.0] C:\Users\USER\.gradle\caches\9.5.0\transforms\f834c9db7909127f38a16f901e21b3c2\transformed\core-1.19.0\AndroidManifest.xml:26:22-94
+20
+21    <application
+21-->D:\gebtaro\app\src\main\AndroidManifest.xml:10:5-81:19
+22        android:allowBackup="true"
+22-->D:\gebtaro\app\src\main\AndroidManifest.xml:11:9-35
+23        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+23-->[androidx.core:core:1.19.0] C:\Users\USER\.gradle\caches\9.5.0\transforms\f834c9db7909127f38a16f901e21b3c2\transformed\core-1.19.0\AndroidManifest.xml:28:18-86
+24        android:dataExtractionRules="@xml/data_extraction_rules"
+24-->D:\gebtaro\app\src\main\AndroidManifest.xml:12:9-65
+25        android:debuggable="true"
+26        android:extractNativeLibs="false"
+26-->INJECTED
+27        android:fullBackupContent="@xml/backup_rules"
+27-->D:\gebtaro\app\src\main\AndroidManifest.xml:13:9-54
+28        android:icon="@mipmap/ic_launcher"
+28-->D:\gebtaro\app\src\main\AndroidManifest.xml:14:9-43
+29        android:label="@string/app_name"
+29-->D:\gebtaro\app\src\main\AndroidManifest.xml:15:9-41
+30        android:roundIcon="@mipmap/ic_launcher_round"
+30-->D:\gebtaro\app\src\main\AndroidManifest.xml:16:9-54
+31        android:supportsRtl="true"
+31-->D:\gebtaro\app\src\main\AndroidManifest.xml:17:9-35
+32        android:testOnly="true"
+33        android:theme="@style/Theme.Gebtaro" >
+33-->D:\gebtaro\app\src\main\AndroidManifest.xml:18:9-45
+34        <receiver
+34-->D:\gebtaro\app\src\main\AndroidManifest.xml:20:9-23:40
+35            android:name="com.example.geb_taro.BookingReminderReceiver"
+35-->D:\gebtaro\app\src\main\AndroidManifest.xml:21:13-52
+36            android:enabled="true"
+36-->D:\gebtaro\app\src\main\AndroidManifest.xml:22:13-35
+37            android:exported="false" />
+37-->D:\gebtaro\app\src\main\AndroidManifest.xml:23:13-37
+38        <receiver
+38-->D:\gebtaro\app\src\main\AndroidManifest.xml:25:9-34:20
+39            android:name="com.example.geb_taro.BookingBootReceiver"
+39-->D:\gebtaro\app\src\main\AndroidManifest.xml:26:13-48
+40            android:enabled="true"
+40-->D:\gebtaro\app\src\main\AndroidManifest.xml:27:13-35
+41            android:exported="true" >
+41-->D:\gebtaro\app\src\main\AndroidManifest.xml:28:13-36
+42            <intent-filter>
+42-->D:\gebtaro\app\src\main\AndroidManifest.xml:30:13-32:29
+43                <action android:name="android.intent.action.BOOT_COMPLETED" />
+43-->D:\gebtaro\app\src\main\AndroidManifest.xml:31:17-79
+43-->D:\gebtaro\app\src\main\AndroidManifest.xml:31:25-76
+44            </intent-filter>
+45        </receiver>
+46
+47        <activity
+47-->D:\gebtaro\app\src\main\AndroidManifest.xml:36:9-46:20
+48            android:name="com.example.geb_taro.SplashScreenActivity"
+48-->D:\gebtaro\app\src\main\AndroidManifest.xml:37:13-49
+49            android:exported="true" >
+49-->D:\gebtaro\app\src\main\AndroidManifest.xml:38:13-36
+50            <intent-filter>
+50-->D:\gebtaro\app\src\main\AndroidManifest.xml:40:13-44:29
+51                <action android:name="android.intent.action.MAIN" />
+51-->D:\gebtaro\app\src\main\AndroidManifest.xml:41:17-69
+51-->D:\gebtaro\app\src\main\AndroidManifest.xml:41:25-66
+52
+53                <category android:name="android.intent.category.LAUNCHER" />
+53-->D:\gebtaro\app\src\main\AndroidManifest.xml:43:17-77
+53-->D:\gebtaro\app\src\main\AndroidManifest.xml:43:27-74
+54            </intent-filter>
+55        </activity>
+56        <activity
+56-->D:\gebtaro\app\src\main\AndroidManifest.xml:48:9-50:40
+57            android:name="com.example.geb_taro.LoginActivity"
+57-->D:\gebtaro\app\src\main\AndroidManifest.xml:49:13-42
+58            android:exported="false" />
+58-->D:\gebtaro\app\src\main\AndroidManifest.xml:50:13-37
 59        <activity
-59-->D:\MHS\gebtaro\app\src\main\AndroidManifest.xml:42:9-45:58
-60            android:name="com.example.geb_taro.VerificationActivity"
-60-->D:\MHS\gebtaro\app\src\main\AndroidManifest.xml:43:13-49
+59-->D:\gebtaro\app\src\main\AndroidManifest.xml:52:9-55:58
+60            android:name="com.example.geb_taro.BaseActivity"
+60-->D:\gebtaro\app\src\main\AndroidManifest.xml:53:13-41
 61            android:exported="false"
-61-->D:\MHS\gebtaro\app\src\main\AndroidManifest.xml:44:13-37
+61-->D:\gebtaro\app\src\main\AndroidManifest.xml:54:13-37
 62            android:windowSoftInputMode="adjustResize" />
-62-->D:\MHS\gebtaro\app\src\main\AndroidManifest.xml:45:13-55
+62-->D:\gebtaro\app\src\main\AndroidManifest.xml:55:13-55
 63        <activity
-63-->D:\MHS\gebtaro\app\src\main\AndroidManifest.xml:46:9-49:58
-64            android:name="com.example.geb_taro.RegistrationSuccessActivity"
-64-->D:\MHS\gebtaro\app\src\main\AndroidManifest.xml:47:13-56
-65            android:exported="false"
-65-->D:\MHS\gebtaro\app\src\main\AndroidManifest.xml:48:13-37
-66            android:windowSoftInputMode="adjustResize" />
-66-->D:\MHS\gebtaro\app\src\main\AndroidManifest.xml:49:13-55
-67
-68        <provider
-68-->[androidx.emoji2:emoji2:1.3.0] C:\Users\PCR\.gradle\caches\9.5.0\transforms\c174794185dac68730232b5fdf702080\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
-69            android:name="androidx.startup.InitializationProvider"
-69-->[androidx.emoji2:emoji2:1.3.0] C:\Users\PCR\.gradle\caches\9.5.0\transforms\c174794185dac68730232b5fdf702080\transformed\emoji2-1.3.0\AndroidManifest.xml:25:13-67
-70            android:authorities="com.example.geb_taro.androidx-startup"
-70-->[androidx.emoji2:emoji2:1.3.0] C:\Users\PCR\.gradle\caches\9.5.0\transforms\c174794185dac68730232b5fdf702080\transformed\emoji2-1.3.0\AndroidManifest.xml:26:13-68
-71            android:exported="false" >
-71-->[androidx.emoji2:emoji2:1.3.0] C:\Users\PCR\.gradle\caches\9.5.0\transforms\c174794185dac68730232b5fdf702080\transformed\emoji2-1.3.0\AndroidManifest.xml:27:13-37
-72            <meta-data
-72-->[androidx.emoji2:emoji2:1.3.0] C:\Users\PCR\.gradle\caches\9.5.0\transforms\c174794185dac68730232b5fdf702080\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
-73                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-73-->[androidx.emoji2:emoji2:1.3.0] C:\Users\PCR\.gradle\caches\9.5.0\transforms\c174794185dac68730232b5fdf702080\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
-74                android:value="androidx.startup" />
-74-->[androidx.emoji2:emoji2:1.3.0] C:\Users\PCR\.gradle\caches\9.5.0\transforms\c174794185dac68730232b5fdf702080\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
-75            <meta-data
-75-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\PCR\.gradle\caches\9.5.0\transforms\87e6d108facb923077857cba246cda87\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
-76                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-76-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\PCR\.gradle\caches\9.5.0\transforms\87e6d108facb923077857cba246cda87\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
-77                android:value="androidx.startup" />
-77-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\PCR\.gradle\caches\9.5.0\transforms\87e6d108facb923077857cba246cda87\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
-78            <meta-data
-78-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\PCR\.gradle\caches\9.5.0\transforms\9fabb4131f577df6af85cddbf5d0c4c5\transformed\profileinstaller-1.4.0\AndroidManifest.xml:29:13-31:52
-79                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
-79-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\PCR\.gradle\caches\9.5.0\transforms\9fabb4131f577df6af85cddbf5d0c4c5\transformed\profileinstaller-1.4.0\AndroidManifest.xml:30:17-85
-80                android:value="androidx.startup" />
-80-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\PCR\.gradle\caches\9.5.0\transforms\9fabb4131f577df6af85cddbf5d0c4c5\transformed\profileinstaller-1.4.0\AndroidManifest.xml:31:17-49
-81        </provider>
+63-->D:\gebtaro\app\src\main\AndroidManifest.xml:57:9-59:40
+64            android:name="com.example.geb_taro.DeveloperActivity"
+64-->D:\gebtaro\app\src\main\AndroidManifest.xml:58:13-46
+65            android:exported="false" />
+65-->D:\gebtaro\app\src\main\AndroidManifest.xml:59:13-37
+66        <activity
+66-->D:\gebtaro\app\src\main\AndroidManifest.xml:61:9-64:58
+67            android:name="com.example.geb_taro.WebActivity"
+67-->D:\gebtaro\app\src\main\AndroidManifest.xml:62:13-40
+68            android:exported="false"
+68-->D:\gebtaro\app\src\main\AndroidManifest.xml:63:13-37
+69            android:windowSoftInputMode="adjustResize" />
+69-->D:\gebtaro\app\src\main\AndroidManifest.xml:64:13-55
+70        <activity
+70-->D:\gebtaro\app\src\main\AndroidManifest.xml:66:9-69:58
+71            android:name="com.example.geb_taro.RegisterActivity"
+71-->D:\gebtaro\app\src\main\AndroidManifest.xml:67:13-45
+72            android:exported="false"
+72-->D:\gebtaro\app\src\main\AndroidManifest.xml:68:13-37
+73            android:windowSoftInputMode="adjustResize" />
+73-->D:\gebtaro\app\src\main\AndroidManifest.xml:69:13-55
+74        <activity
+74-->D:\gebtaro\app\src\main\AndroidManifest.xml:71:9-74:58
+75            android:name="com.example.geb_taro.VerificationActivity"
+75-->D:\gebtaro\app\src\main\AndroidManifest.xml:72:13-49
+76            android:exported="false"
+76-->D:\gebtaro\app\src\main\AndroidManifest.xml:73:13-37
+77            android:windowSoftInputMode="adjustResize" />
+77-->D:\gebtaro\app\src\main\AndroidManifest.xml:74:13-55
+78        <activity
+78-->D:\gebtaro\app\src\main\AndroidManifest.xml:76:9-79:58
+79            android:name="com.example.geb_taro.RegistrationSuccessActivity"
+79-->D:\gebtaro\app\src\main\AndroidManifest.xml:77:13-56
+80            android:exported="false"
+80-->D:\gebtaro\app\src\main\AndroidManifest.xml:78:13-37
+81            android:windowSoftInputMode="adjustResize" />
+81-->D:\gebtaro\app\src\main\AndroidManifest.xml:79:13-55
 82
-83        <receiver
-83-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\PCR\.gradle\caches\9.5.0\transforms\9fabb4131f577df6af85cddbf5d0c4c5\transformed\profileinstaller-1.4.0\AndroidManifest.xml:34:9-52:20
-84            android:name="androidx.profileinstaller.ProfileInstallReceiver"
-84-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\PCR\.gradle\caches\9.5.0\transforms\9fabb4131f577df6af85cddbf5d0c4c5\transformed\profileinstaller-1.4.0\AndroidManifest.xml:35:13-76
-85            android:directBootAware="false"
-85-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\PCR\.gradle\caches\9.5.0\transforms\9fabb4131f577df6af85cddbf5d0c4c5\transformed\profileinstaller-1.4.0\AndroidManifest.xml:36:13-44
-86            android:enabled="true"
-86-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\PCR\.gradle\caches\9.5.0\transforms\9fabb4131f577df6af85cddbf5d0c4c5\transformed\profileinstaller-1.4.0\AndroidManifest.xml:37:13-35
-87            android:exported="true"
-87-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\PCR\.gradle\caches\9.5.0\transforms\9fabb4131f577df6af85cddbf5d0c4c5\transformed\profileinstaller-1.4.0\AndroidManifest.xml:38:13-36
-88            android:permission="android.permission.DUMP" >
-88-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\PCR\.gradle\caches\9.5.0\transforms\9fabb4131f577df6af85cddbf5d0c4c5\transformed\profileinstaller-1.4.0\AndroidManifest.xml:39:13-57
-89            <intent-filter>
-89-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\PCR\.gradle\caches\9.5.0\transforms\9fabb4131f577df6af85cddbf5d0c4c5\transformed\profileinstaller-1.4.0\AndroidManifest.xml:40:13-42:29
-90                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
-90-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\PCR\.gradle\caches\9.5.0\transforms\9fabb4131f577df6af85cddbf5d0c4c5\transformed\profileinstaller-1.4.0\AndroidManifest.xml:41:17-91
-90-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\PCR\.gradle\caches\9.5.0\transforms\9fabb4131f577df6af85cddbf5d0c4c5\transformed\profileinstaller-1.4.0\AndroidManifest.xml:41:25-88
-91            </intent-filter>
-92            <intent-filter>
-92-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\PCR\.gradle\caches\9.5.0\transforms\9fabb4131f577df6af85cddbf5d0c4c5\transformed\profileinstaller-1.4.0\AndroidManifest.xml:43:13-45:29
-93                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
-93-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\PCR\.gradle\caches\9.5.0\transforms\9fabb4131f577df6af85cddbf5d0c4c5\transformed\profileinstaller-1.4.0\AndroidManifest.xml:44:17-85
-93-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\PCR\.gradle\caches\9.5.0\transforms\9fabb4131f577df6af85cddbf5d0c4c5\transformed\profileinstaller-1.4.0\AndroidManifest.xml:44:25-82
-94            </intent-filter>
-95            <intent-filter>
-95-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\PCR\.gradle\caches\9.5.0\transforms\9fabb4131f577df6af85cddbf5d0c4c5\transformed\profileinstaller-1.4.0\AndroidManifest.xml:46:13-48:29
-96                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
-96-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\PCR\.gradle\caches\9.5.0\transforms\9fabb4131f577df6af85cddbf5d0c4c5\transformed\profileinstaller-1.4.0\AndroidManifest.xml:47:17-88
-96-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\PCR\.gradle\caches\9.5.0\transforms\9fabb4131f577df6af85cddbf5d0c4c5\transformed\profileinstaller-1.4.0\AndroidManifest.xml:47:25-85
-97            </intent-filter>
-98            <intent-filter>
-98-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\PCR\.gradle\caches\9.5.0\transforms\9fabb4131f577df6af85cddbf5d0c4c5\transformed\profileinstaller-1.4.0\AndroidManifest.xml:49:13-51:29
-99                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
-99-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\PCR\.gradle\caches\9.5.0\transforms\9fabb4131f577df6af85cddbf5d0c4c5\transformed\profileinstaller-1.4.0\AndroidManifest.xml:50:17-95
-99-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\PCR\.gradle\caches\9.5.0\transforms\9fabb4131f577df6af85cddbf5d0c4c5\transformed\profileinstaller-1.4.0\AndroidManifest.xml:50:25-92
-100            </intent-filter>
-101        </receiver>
-102    </application>
-103
-104</manifest>
+83        <provider
+83-->[androidx.emoji2:emoji2:1.3.0] C:\Users\USER\.gradle\caches\9.5.0\transforms\c174794185dac68730232b5fdf702080\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+84            android:name="androidx.startup.InitializationProvider"
+84-->[androidx.emoji2:emoji2:1.3.0] C:\Users\USER\.gradle\caches\9.5.0\transforms\c174794185dac68730232b5fdf702080\transformed\emoji2-1.3.0\AndroidManifest.xml:25:13-67
+85            android:authorities="com.example.geb_taro.androidx-startup"
+85-->[androidx.emoji2:emoji2:1.3.0] C:\Users\USER\.gradle\caches\9.5.0\transforms\c174794185dac68730232b5fdf702080\transformed\emoji2-1.3.0\AndroidManifest.xml:26:13-68
+86            android:exported="false" >
+86-->[androidx.emoji2:emoji2:1.3.0] C:\Users\USER\.gradle\caches\9.5.0\transforms\c174794185dac68730232b5fdf702080\transformed\emoji2-1.3.0\AndroidManifest.xml:27:13-37
+87            <meta-data
+87-->[androidx.emoji2:emoji2:1.3.0] C:\Users\USER\.gradle\caches\9.5.0\transforms\c174794185dac68730232b5fdf702080\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+88                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+88-->[androidx.emoji2:emoji2:1.3.0] C:\Users\USER\.gradle\caches\9.5.0\transforms\c174794185dac68730232b5fdf702080\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
+89                android:value="androidx.startup" />
+89-->[androidx.emoji2:emoji2:1.3.0] C:\Users\USER\.gradle\caches\9.5.0\transforms\c174794185dac68730232b5fdf702080\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
+90            <meta-data
+90-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\USER\.gradle\caches\9.5.0\transforms\87e6d108facb923077857cba246cda87\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
+91                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+91-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\USER\.gradle\caches\9.5.0\transforms\87e6d108facb923077857cba246cda87\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
+92                android:value="androidx.startup" />
+92-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\USER\.gradle\caches\9.5.0\transforms\87e6d108facb923077857cba246cda87\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
+93            <meta-data
+93-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\USER\.gradle\caches\9.5.0\transforms\9fabb4131f577df6af85cddbf5d0c4c5\transformed\profileinstaller-1.4.0\AndroidManifest.xml:29:13-31:52
+94                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+94-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\USER\.gradle\caches\9.5.0\transforms\9fabb4131f577df6af85cddbf5d0c4c5\transformed\profileinstaller-1.4.0\AndroidManifest.xml:30:17-85
+95                android:value="androidx.startup" />
+95-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\USER\.gradle\caches\9.5.0\transforms\9fabb4131f577df6af85cddbf5d0c4c5\transformed\profileinstaller-1.4.0\AndroidManifest.xml:31:17-49
+96        </provider>
+97
+98        <receiver
+98-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\USER\.gradle\caches\9.5.0\transforms\9fabb4131f577df6af85cddbf5d0c4c5\transformed\profileinstaller-1.4.0\AndroidManifest.xml:34:9-52:20
+99            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+99-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\USER\.gradle\caches\9.5.0\transforms\9fabb4131f577df6af85cddbf5d0c4c5\transformed\profileinstaller-1.4.0\AndroidManifest.xml:35:13-76
+100            android:directBootAware="false"
+100-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\USER\.gradle\caches\9.5.0\transforms\9fabb4131f577df6af85cddbf5d0c4c5\transformed\profileinstaller-1.4.0\AndroidManifest.xml:36:13-44
+101            android:enabled="true"
+101-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\USER\.gradle\caches\9.5.0\transforms\9fabb4131f577df6af85cddbf5d0c4c5\transformed\profileinstaller-1.4.0\AndroidManifest.xml:37:13-35
+102            android:exported="true"
+102-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\USER\.gradle\caches\9.5.0\transforms\9fabb4131f577df6af85cddbf5d0c4c5\transformed\profileinstaller-1.4.0\AndroidManifest.xml:38:13-36
+103            android:permission="android.permission.DUMP" >
+103-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\USER\.gradle\caches\9.5.0\transforms\9fabb4131f577df6af85cddbf5d0c4c5\transformed\profileinstaller-1.4.0\AndroidManifest.xml:39:13-57
+104            <intent-filter>
+104-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\USER\.gradle\caches\9.5.0\transforms\9fabb4131f577df6af85cddbf5d0c4c5\transformed\profileinstaller-1.4.0\AndroidManifest.xml:40:13-42:29
+105                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+105-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\USER\.gradle\caches\9.5.0\transforms\9fabb4131f577df6af85cddbf5d0c4c5\transformed\profileinstaller-1.4.0\AndroidManifest.xml:41:17-91
+105-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\USER\.gradle\caches\9.5.0\transforms\9fabb4131f577df6af85cddbf5d0c4c5\transformed\profileinstaller-1.4.0\AndroidManifest.xml:41:25-88
+106            </intent-filter>
+107            <intent-filter>
+107-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\USER\.gradle\caches\9.5.0\transforms\9fabb4131f577df6af85cddbf5d0c4c5\transformed\profileinstaller-1.4.0\AndroidManifest.xml:43:13-45:29
+108                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+108-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\USER\.gradle\caches\9.5.0\transforms\9fabb4131f577df6af85cddbf5d0c4c5\transformed\profileinstaller-1.4.0\AndroidManifest.xml:44:17-85
+108-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\USER\.gradle\caches\9.5.0\transforms\9fabb4131f577df6af85cddbf5d0c4c5\transformed\profileinstaller-1.4.0\AndroidManifest.xml:44:25-82
+109            </intent-filter>
+110            <intent-filter>
+110-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\USER\.gradle\caches\9.5.0\transforms\9fabb4131f577df6af85cddbf5d0c4c5\transformed\profileinstaller-1.4.0\AndroidManifest.xml:46:13-48:29
+111                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+111-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\USER\.gradle\caches\9.5.0\transforms\9fabb4131f577df6af85cddbf5d0c4c5\transformed\profileinstaller-1.4.0\AndroidManifest.xml:47:17-88
+111-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\USER\.gradle\caches\9.5.0\transforms\9fabb4131f577df6af85cddbf5d0c4c5\transformed\profileinstaller-1.4.0\AndroidManifest.xml:47:25-85
+112            </intent-filter>
+113            <intent-filter>
+113-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\USER\.gradle\caches\9.5.0\transforms\9fabb4131f577df6af85cddbf5d0c4c5\transformed\profileinstaller-1.4.0\AndroidManifest.xml:49:13-51:29
+114                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+114-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\USER\.gradle\caches\9.5.0\transforms\9fabb4131f577df6af85cddbf5d0c4c5\transformed\profileinstaller-1.4.0\AndroidManifest.xml:50:17-95
+114-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\USER\.gradle\caches\9.5.0\transforms\9fabb4131f577df6af85cddbf5d0c4c5\transformed\profileinstaller-1.4.0\AndroidManifest.xml:50:25-92
+115            </intent-filter>
+116        </receiver>
+117    </application>
+118
+119</manifest>

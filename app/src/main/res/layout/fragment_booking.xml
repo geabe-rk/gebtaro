@@ -109,9 +109,10 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="12dp"
-            android:text="Prototype: booking belum disimpan ke database."
+            android:text="Booking disimpan secara lokal. Pengingat muncul 30 menit sebelum jadwal."
             android:textColor="#8F9AA5"
             android:textSize="12sp" />
 
     </LinearLayout>
+
 </ScrollView>

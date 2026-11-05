@@ -28,6 +28,7 @@ drawable ic_nav_home
 drawable ic_nav_profile
 drawable izireps_logo
 font retrofia
+id bookingsContainer
 id bottom_nav_view
 id btnBackLogin
 id btnBookConsole
@@ -52,6 +53,7 @@ id btnSettings
 id btnSubmitVerifikasi
 id btnTime
 id btnWeb
+id cardHistoryEmpty
 id cardSession
 id edtConfirmPassword
 id edtEmail

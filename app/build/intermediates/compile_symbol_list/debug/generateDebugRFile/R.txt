@@ -26,6 +26,7 @@ int drawable ic_nav_home 0x0
 int drawable ic_nav_profile 0x0
 int drawable izireps_logo 0x0
 int font retrofia 0x0
+int id bookingsContainer 0x0
 int id bottom_nav_view 0x0
 int id btnBackLogin 0x0
 int id btnBookConsole 0x0
@@ -50,6 +51,7 @@ int id btnSettings 0x0
 int id btnSubmitVerifikasi 0x0
 int id btnTime 0x0
 int id btnWeb 0x0
+int id cardHistoryEmpty 0x0
 int id cardSession 0x0
 int id edtConfirmPassword 0x0
 int id edtEmail 0x0
